@@ -1,0 +1,189 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+
+    padding: 0;
+}
+
+/* Large Version (for tablets and above) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .welcome-content h2 {
+        font-size: 42px;
+    }
+    .timelineBody {
+        max-height: 545px;
+    }
+    .team-member-thumb {
+        width: 150px;
+    }
+    .post-meta p a {
+        margin-right: 15px;
+    }
+    .post-title h4 {
+        font-size: 20px;
+    }
+    .single-team-member {
+        padding: 20px;
+    }
+    .cd-intro.default-title > h2 {
+        font-size: 42px;
+    }
+}
+
+/* Medium Version (for tablets) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .welcome_area {
+        height: 700px !important;
+    }
+    .welcome_single_sli…
+/* إعدادات أساسية */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+/* Large Version (للشاشات الكبيرة مثل الأجهزة اللوحية وما فوق) */
+@media only screen and (min-width: 992px) {
+    .welcome-content h2 {
+        font-size: 42px;
+    }
+    .timelineBody {
+        max-height: 545px;
+    }
+    .team-member-thumb {
+        width: 150px;
+    }
+    .post-meta p a {
+        margin-right: 15px;
+    }
+    .post-title h4 {
+        font-size: 20px;
+    }
+    .single-team-member {
+        padding: 20px;
+    }
+    .cd-intro.default-title > h2 {
+        font-size: 42px;
+    }
+}
+
+/* Medium Version (للأجهزة اللوحية) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .welcome-content h2 {
+        font-size: 36px;
+    }
+    .cta-content h2 {
+        font-size: 36px;
+    }
+    .timelineBody {
+        max-height: 640px;
+    }
+    .dream-btn {
+        min-width: 160px;
+        padding: 0 20px;
+        font-size: 12px;
+    }
+}
+
+/* Mobile Version (للشاشات الصغيرة) */
+@media only screen and (max-width: 767px) {
+    /* إعدادات النصوص */
+    .welcome-content h2 {
+        font-size: 24px;
+    }
+    .welcome-content p,
+    .cta-content p {
+        font-size: 14px;
+    }
+
+    /* تحسين الأزرار */
+    .dream-btn {
+        min-width: 130px;
+        padding: 0 20px;
+        font-size: 10px;
+    }
+
+    /* تنسيق الصور والعناصر */
+    .footer-side-thumbnail {
+        width: 100%;
+    }
+
+    /* تعديل تنسيق العناوين */
+    .who-we-contant h4 {
+        font-size: 20px;
+    }
+
+    .timelineBox {
+        margin-top: 50px;
+    }
+
+    /* تحسين تصميم التنقل */
+    .classy-navbar {
+        height: 60px;
+    }
+
+    /* تحسين المسافات بين العناصر */
+    .welcome-content {
+        margin-top: 50px;
+    }
+    .cta-content {
+        margin-top: 20px;
+    }
+
+    /* تحسين التصميم ليتناسب مع جميع الأجهزة */
+    .single-team-member {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .timelineBody .timeline {
+        padding: 1em;
+    }
+}
+
+/* Mobile Specific - تحسين التفاعل مع العناصر الصغيرة */
+@media only screen and (max-width: 480px) {
+    .welcome_area {
+        height: auto !important;
+    }
+
+    .welcome-content h2 {
+        font-size: 26px;
+    }
+
+    .dream-btn {
+        min-width: 140px;
+        padding: 0 20px;
+        font-size: 12px;
+    }
+
+    .single-team-member:after {
+        width: 50%;
+    }
+}
+
+/* خصائص خفية للأجهزة الصغيرة */
+@media only screen and (max-width: 767px) {
+    .hidden-lg, .hidden-md, .hidden-sm, .hidden-xs {
+        display: none;
+    }
+}
+
+/* تعديل تصميم بعض العناصر داخل الأجهزة الصغيرة */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .welcome-content h2 {
+        font-size: 30px;
+    }
+    .dream-btn {
+        min-width: 160px;
+        padding: 0 20px;
+        font-size: 12px;
+    }
+    .cd-intro.default-title > h2 {
+        font-size: 30px;
+    }
+}
